@@ -117,6 +117,9 @@ namespace CameraApp.Droid
 			// aapt resource value: 0x7f040002
 			public const int button1 = 2130968578;
 			
+			// aapt resource value: 0x7f040005
+			public const int imageView1 = 2130968581;
+			
 			// aapt resource value: 0x7f040004
 			public const int textView1 = 2130968580;
 			

@@ -24,7 +24,8 @@ namespace CameraApp.iOS.Views
 
             // Perform any additional setup after loading the view, typically from a nib.
             var set = this.CreateBindingSet<TakePictureView, Core.ViewModels.TakePictureViewModel>();
-            //set.Bind(TextField).To(vm => vm.Hello);
+            set.Bind(TakePictureButton).To(vm => vm.TakePictureCommand);
+            set.Bind(PictureView).To(vm => vm.PictureBytes).WithConversion("InMemoryImage");
             set.Apply();
         }
     }
