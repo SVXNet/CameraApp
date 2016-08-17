@@ -16,11 +16,15 @@ namespace CameraApp.iOS.Views
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UILabel Label { get; set; }
+        UIKit.UILabel Label { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UITextField TextField { get; set; }
+        UIKit.UIButton TakePictureButton { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UITextField TextField { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -28,6 +32,12 @@ namespace CameraApp.iOS.Views
                 Label.Dispose ();
                 Label = null;
             }
+
+            if (TakePictureButton != null) {
+                TakePictureButton.Dispose ();
+                TakePictureButton = null;
+            }
+
             if (TextField != null) {
                 TextField.Dispose ();
                 TextField = null;

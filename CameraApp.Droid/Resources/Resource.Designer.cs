@@ -111,8 +111,14 @@ namespace CameraApp.Droid
 			// aapt resource value: 0x7f040001
 			public const int MvxBindingTagUnique = 2130968577;
 			
+			// aapt resource value: 0x7f040003
+			public const int MyButton = 2130968579;
+			
 			// aapt resource value: 0x7f040002
-			public const int MyButton = 2130968578;
+			public const int button1 = 2130968578;
+			
+			// aapt resource value: 0x7f040004
+			public const int textView1 = 2130968580;
 			
 			static Id()
 			{
@@ -135,6 +141,9 @@ namespace CameraApp.Droid
 			
 			// aapt resource value: 0x7f030002
 			public const int SplashScreen = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int TakePictureView = 2130903043;
 			
 			static Layout()
 			{
